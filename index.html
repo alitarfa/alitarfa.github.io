@@ -6,6 +6,15 @@
   <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
   <title>Tarfa Ali</title>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
+
+
   <!-- Favicon -->
   <link href="./assets/img/theme/5-1.png" rel="icon" type="image/png">
   <!-- Fonts -->
@@ -17,11 +26,21 @@
   <!-- Argon CSS -->
   <link type="text/css" href="./assets/css/argon.css?v=1.1.0" rel="stylesheet">
 
+
+
+<style>
+.skills-row div span {
+  margin: 4px;
+  padding: 10px;
+}
+
+
+</style>
 </head>
 
 <body>
   <header class="header-global">
-    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
+    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent headroom">
       <div class="container">
         <a class="navbar-brand mr-lg-5" href="./index.html">
           <!-- <img src="../assets/img/brand/white.png" alt="brand"> -->
@@ -172,88 +191,50 @@
 <div class="row">
   <div class="col text-center">
     <h1>Skills</h1>
-    <div class="row">
+    <div class="row p-4 skills-row">
       <div class="col-3">
         <h3>Programming & Scripts</h3>
-        <div class="card m-2 p-2">
-          <span>Java 8</span>
-        </div>
 
-        <div class="card m-2 p-2">
-            <span>JavaScript</span>
-        </div>
-
-        <div class="card m-2 p-2">
-            <span>TypeScript</span>
-        </div>
-
-        <div class="card m-2 p-2">
-            <span>NodeJs</span>
-        </div>
-
-        <div class="card m-2 p-2">
-            <span>Python 2.7 & 3.x</span>
-        </div>
+        <span class="badge badge-pill badge-default">Java 8</span>
+        <span class="badge badge-pill badge-primary">JavaScript</span>
+        <span class="badge badge-pill badge-secondary">TypeScript</span>
+        <span class="badge badge-pill badge-success">Success</span>
+        <span class="badge badge-pill badge-danger">NodeJs</span>
+        <span class="badge badge-pill badge-warning">Python 2.7 & 3.x</span>
+        <span class="badge badge-pill badge-info">Info</span>
+        <span class="badge badge-pill badge-light">Light</span>
+   
       </div>
 
       <div class="col-3">
           <h3>Frameworks</h3>
-            <div class="card m-2 p-2">
-              <span>Spring boot</span>
-            </div>
+          
+            <span class="badge badge-pill badge-default">Spring boot</span>
+            <span class="badge badge-pill badge-primary">Spring cloud</span>
+            <span class="badge badge-pill badge-secondary">Android</span>
+            <span class="badge badge-pill badge-success">Laravel 5.4</span>
+            <span class="badge badge-pill badge-danger">ExpressJs</span>
+            <span class="badge badge-pill badge-warning">Angular 8</span>
+        
 
-            <div class="card m-2 p-2">
-                <span>Spring Cloud</span>
-            </div>
-
-            <div class="card m-2 p-2">
-                <span>Android</span>
-            </div>
-    
-            <div class="card m-2 p-2">
-                <span>Laravel 5.4</span>
-            </div>
-    
-            <div class="card m-2 p-2">
-                <span>ExpressJs</span>
-            </div>
-    
-            <div class="card m-2 p-2">
-                <span>Angular 8</span>
-            </div>
-  
       </div>
 
       <div class="col-3">
           <h3>DevOps</h3>
-            <div class="card m-2 p-2">
-              <span>Github & GitLab</span>
-            </div>
 
-            <div class="card m-2 p-2">
-                <span>Docker</span>
-            </div>
-
-            <div class="card m-2 p-2">
-                <span>ElasticSearch</span>
-            </div>
-     
+          <span class="badge badge-pill badge-default">Github & GitLab</span>
+          <span class="badge badge-pill badge-primary">Docker</span>
+          <span class="badge badge-pill badge-secondary">ElasticSearch</span>
+          
       </div>
 
       <div class="col-3">
-          <h3>AI</h3>
-        
-            <div class="card m-2 p-2">
-                <span>Keras</span>
-            </div>
-
-            <div class="card m-2 p-2">
-                <span>Tensorflow</span>
-            </div>
-
-            <div class="card m-2 p-2">
-                <span>Sk-learn</span>
-            </div>
+          <h3>AI & Big Data</h3>
+          <span class="badge badge-pill badge-default">Keras</span>
+          <span class="badge badge-pill badge-primary">Tensorflow</span>
+          <span class="badge badge-pill badge-secondary">Sk-learn</span>
+          <span class="badge badge-pill badge-secondary">Hadoop</span>
+          <span class="badge badge-pill badge-secondary">Spark</span>
       </div>
     </div>
   </div>
@@ -288,6 +269,17 @@
   <script src="./assets/vendor/headroom/headroom.min.js"></script>
   <!-- Argon JS -->
   <script src="./assets/js/argon.js?v=1.1.0"></script>
+
+
+
+  <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
 </body>
 
 </html>
